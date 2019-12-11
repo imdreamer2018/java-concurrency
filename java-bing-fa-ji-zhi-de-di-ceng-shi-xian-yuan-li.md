@@ -1,6 +1,6 @@
 ---
-description: The underlying principle of Java concurrency mechanism.
+description: The challenge of concurrency programming.
 ---
 
-# Java并发机制的底层实现原理
+# 并发编程的挑战
 
