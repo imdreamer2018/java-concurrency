@@ -87,10 +87,7 @@ public class AtomicReference <V> implements java.io.Serializable {
 以下两种场景不应该使用这种方式：
 
 - **缓存行非64字节宽的处理器。**
-
-  **共享变量不会被频繁地写。**
-
-- 
+- **共享变量不会被频繁的写。**
 
 ## synchronized的实现原理与应用
 
