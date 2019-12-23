@@ -8,7 +8,7 @@ Java代码在编译后会编程Java字节码，字节码被类加载器加载到
 
 ## volatile的应用
 
-在多线程并发编程中synchronized和volatile都扮演着重要的角色，volatile是轻量级的synchronized，它在多处理开发中保证了共享变量的“可见性”。可见性的意思是当一个线程修改一个共享变量时，另一个线程能读到这个修改的指。如果volatitle变量修饰符使用恰当的话，它比synchronized的使用和执行成本更低，因为他不会引起线程上下文的切换和调度。
+在多线程并发编程中synchronized和volatile都扮演着重要的角色，volatile是轻量级的synchronized，它在多处理开发中保证了共享变量的“可见性”。可见性的意思是当一个线程修改一个共享变量时，另一个线程能读到这个修改的值。如果volatitle变量修饰符使用恰当的话，它比synchronized的使用和执行成本更低，因为他不会引起线程上下文的切换和调度。
 
 ### volatile的定义与实现原理
 
